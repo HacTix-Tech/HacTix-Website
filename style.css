@@ -78,6 +78,13 @@ hr {
     border-radius: 8px;
   }
 
+.logo {
+    height: 300px;
+    max-width: 100%;
+    width: auto;
+    margin-right: 20px;
+}
+
 /* Mobile Optimization */
 @media (max-width: 768px) {
     h1 {
@@ -112,6 +119,10 @@ hr {
     body {
         background-color: darkviolet;
     }
+
+    .logo {
+        height: 200px;  /* Adjust height for smaller screens */
+    }
 }
 
 /* Tablet and Mobile Friendly Design */
@@ -143,5 +154,9 @@ hr {
 
     body {
         background-color: indigo;
+    }
+
+    .logo {
+        height: 150px;  /* Adjust height further for mobile */
     }
 }
