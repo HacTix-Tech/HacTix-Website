@@ -125,6 +125,11 @@ input {
     text-shadow: none !important;
   }
 
+.product button {
+    -webkit-text-stroke: 0 !important;
+    text-shadow: none !important;
+  }
+
 /* Mobile Optimization */
 @media (max-width: 700px) {
     h1 {
