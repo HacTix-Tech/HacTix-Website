@@ -44,6 +44,7 @@ header {
 
 a {
     text-decoration: none;
+    color: blueviolet;
     -webkit-text-stroke: 1px #00ffcc; /* Outline */
     text-shadow: 0 0 10px #00ffcc; /* Glow effect */
 }
