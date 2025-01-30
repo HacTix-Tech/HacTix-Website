@@ -107,6 +107,24 @@ input {
     place-items: center;
 }
 
+.product {
+    background-color: #ffffff;
+    padding: 20px;
+    border:none;
+    box-shadow: none;
+    border-radius: none;
+}
+
+.product p {
+    -webkit-text-stroke: 0 !important;
+    text-shadow: none !important;
+  }
+
+.product h3 {
+    -webkit-text-stroke: 0 !important;
+    text-shadow: none !important;
+  }
+
 /* Mobile Optimization */
 @media (max-width: 700px) {
     h1 {
