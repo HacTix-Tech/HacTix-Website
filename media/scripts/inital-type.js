@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    typeWriter();
+    setTimeout(typeWriter, 1000);
 });
