@@ -2,6 +2,8 @@
 html {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
 body {
@@ -10,6 +12,8 @@ body {
     padding: 0;
     background-image: none;
     background-color: blueviolet;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+
 }
 
 .container {
@@ -35,7 +39,7 @@ h2 {
 header {
     background-color: black;
     margin: 0;
-    padding: 0;
+    padding: 30px;
 }
 
 a {
